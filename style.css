@@ -19,9 +19,6 @@ body {
   background: var(--primary-bg);
 }
 
-main{
-    margin: 0 10rem;
-}
 
 .primary-btn {
   background: linear-gradient(
@@ -154,6 +151,7 @@ nav ul {
 /* About section desgin */
 #about{
     text-align: center;
+    margin: 0 10rem;
 }
 
 #review{
@@ -166,4 +164,56 @@ nav ul {
 font-size: 4.8rem;
 font-weight: 900;
 margin-bottom: 0;
+}
+
+/* Choose why section design */
+#choose{
+    margin: 20rem 0;
+    padding: 20rem 10rem;
+    background-color: var(--secondary-bg);
+}
+#choose h2{
+    text-align: center;
+}
+
+#reasons{
+    display: grid;
+    grid-template-areas: 
+    "a b b"
+    "a c c"
+    "d d e";
+    gap: 1.5rem;
+}
+
+#reasons h3{
+    color: var(--primary-color);
+    font-style: Bold;
+font-size: 2.4rem;
+font-weight: 700;
+}
+
+#reasons div{
+    background-color: var(--tertiary-bg);
+    border-radius: 4rem;
+    padding: 4rem;
+
+}
+
+#box-1{
+    grid-area: a;
+}
+#box-1>img{
+margin-top: 20%;
+}
+#box-2{
+    grid-area: b;
+}
+#box-3{
+    grid-area: c;
+}
+#box-4{
+    grid-area: d;
+}
+#box-5{
+    grid-area: e;
 }
