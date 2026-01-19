@@ -261,6 +261,7 @@ nav ul {
   width: 100%;
   background-color: var(--tertiary-bg);
   border-radius: 2.4rem;
+  margin-bottom: 0;
 }
 
 iframe {
@@ -414,7 +415,7 @@ button{
 
 /* About */
 #about {
-  margin: 0 2rem;
+  margin: 5rem 2.5rem;
 }
 
 #review {
@@ -424,7 +425,7 @@ button{
 /* Choose */
 #choose{
   margin: 0;
-  padding: 5rem 2rem;
+  padding: 5rem 2.5rem;
 }
 #reasons{
   grid-template-areas: 
@@ -437,5 +438,16 @@ button{
 }
 #box-1 > img {
   margin-top: 0;
+}
+
+/* Episodes */
+#episodes {
+  margin: 8rem 2.5rem;
+}
+#episodes-card {
+  display: block;
+}
+.card{
+  margin-bottom: 4rem;
 }
 }
