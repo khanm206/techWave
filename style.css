@@ -1,0 +1,18 @@
+
+:root{
+    --primary-color: rgba(26, 11, 46, 1);
+    --secondary-color: rgba(35, 14, 61, 1);
+    --tertiary-color: rgba(53, 17, 101, 0.4);
+}
+
+
+html{
+    font-size: 10px;
+    font-family: "Inter", sans-serif;
+}
+
+
+body{
+    background:var(--primary-color) ;
+}
+
