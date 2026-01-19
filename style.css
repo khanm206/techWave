@@ -19,7 +19,6 @@ body {
   background: var(--primary-bg);
 }
 
-
 .primary-btn {
   background: linear-gradient(
     45deg,
@@ -60,7 +59,7 @@ body {
 }
 
 .primary-text {
-    text-align: center;
+  text-align: center;
   color: var(--primary-color);
   font-style: Bold;
   font-size: 4.8rem;
@@ -74,24 +73,22 @@ body {
   font-weight: 400;
 }
 
-.tertiary-text{
-        color: var(--primary-color);
-    font-style: Bold;
-font-size: 2.4rem;
-font-weight: 700;
+.tertiary-text {
+  color: var(--primary-color);
+  font-style: Bold;
+  font-size: 2.4rem;
+  font-weight: 700;
 }
-
 
 a {
   text-decoration: none;
   color: var(--navList-color);
 }
 
-hr{
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    margin: 8rem 0;
+hr {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin: 8rem 0;
 }
-
 
 /* NavBar Design */
 nav {
@@ -120,6 +117,7 @@ nav ul {
   background-image: url(./assets/hero-bg.png);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   width: 100%;
   min-height: 76rem;
   margin: 0 auto;
@@ -127,7 +125,6 @@ nav ul {
 }
 
 .hero-img {
-  /* background-image: url(./assets/hero-circle.png); */
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
@@ -139,24 +136,23 @@ nav ul {
   margin: 8rem auto 0;
 }
 
-
-#microphone{
-    position: absolute;
-    z-index: 2;
+#microphone {
+  position: absolute;
+  z-index: 2;
 }
 
-.hero-img>p{
-    font-style: Semi Bold;
-font-size: 1.8rem;
-font-weight: 600;
-background-color: var(--tertiary-color);
-padding: 0.8rem 1.6rem;
-border-radius: 100rem;
-box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5);
-position: absolute;
-top: 0;
-right: 0;
-z-index: 3;
+.hero-img > p {
+  font-style: Semi Bold;
+  font-size: 1.8rem;
+  font-weight: 600;
+  background-color: var(--tertiary-color);
+  padding: 0.8rem 1.6rem;
+  border-radius: 100rem;
+  box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5);
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 3;
 }
 
 .hero-content {
@@ -173,145 +169,177 @@ z-index: 3;
   margin-bottom: 0;
 }
 
-.hero-btn{
-    display: flex;
-    justify-content: center;
-    gap: 4rem;
+.hero-btn {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
 }
 
 /* About section desgin */
-#about{
-    text-align: center;
-    margin: 0 10rem;
+#about {
+  text-align: center;
+  margin: 0 10rem;
 }
 
-#review{
-    display: flex;
-    justify-content: space-around;
+#review {
+  display: flex;
+  justify-content: space-around;
 }
 
-#review h2{
-    color: var(--tertiary-color);
-font-size: 4.8rem;
-font-weight: 900;
-margin-bottom: 0;
+#review h2 {
+  color: var(--tertiary-color);
+  font-size: 4.8rem;
+  font-weight: 900;
+  margin-bottom: 0;
 }
 
 /* Choose why section design */
-#choose{
-    margin: 20rem 0;
-    padding: 20rem 10rem;
-    background-color: var(--secondary-bg);
+#choose {
+  margin: 20rem 0;
+  padding: 20rem 10rem;
+  background-color: var(--secondary-bg);
 }
-#choose h2{
-    text-align: center;
+#choose h2 {
+  text-align: center;
 }
 
-#reasons{
-    display: grid;
-    grid-template-areas: 
+#reasons {
+  display: grid;
+  grid-template-areas:
     "a b b"
     "a c c"
     "d d e";
-    gap: 1.5rem;
+  gap: 1.5rem;
 }
 
-
-#reasons div{
-    background-color: var(--tertiary-bg);
-    border-radius: 4rem;
-    padding: 4rem;
-
+#reasons div {
+  background-color: var(--tertiary-bg);
+  border-radius: 4rem;
+  padding: 4rem;
 }
 
-#box-1{
-    grid-area: a;
+#box-1 {
+  grid-area: a;
 }
-#box-1>img{
-margin-top: 20%;
+#box-1 > img {
+  margin-top: 20%;
 }
-#box-2{
-    grid-area: b;
+#box-2 {
+  grid-area: b;
 }
-#box-3{
-    grid-area: c;
+#box-3 {
+  grid-area: c;
 }
-#box-4{
-    grid-area: d;
+#box-4 {
+  grid-area: d;
 }
-#box-5{
-    grid-area: e;
+#box-5 {
+  grid-area: e;
 }
 
 /* episodes section design */
-#episodes-card{
-    margin: 0 10rem;
-    display: flex;
-    gap: 2rem;
-    margin: 5rem 0 10rem;
+#episodes-card {
+  margin: 0 10rem;
+  display: flex;
+  gap: 2rem;
+  margin: 5rem 0 10rem;
 }
 
-.card{
-    width: 100%;
-    background-color: var(--tertiary-bg);
-    border-radius: 2.4rem;
+.card {
+  width: 100%;
+  background-color: var(--tertiary-bg);
+  border-radius: 2.4rem;
 }
 
-iframe{
-    width: 100%;
-    height: 25rem;
-    border-top-right-radius: 2.4rem;
-    border-top-left-radius: 2.4rem;
+iframe {
+  width: 100%;
+  height: 25rem;
+  border-top-right-radius: 2.4rem;
+  border-top-left-radius: 2.4rem;
 }
 
-.card-content{
-    padding: 1rem 2rem;
+.card-content {
+  padding: 1rem 2rem;
 }
 
-.time{
-    font-style: Semi Bold;
-font-size: 1.6rem;
-font-weight: 600;
-color: var(--tertiary-color);
-display: flex;
-align-items: center;
-gap: 1rem;
+.time {
+  font-style: Semi Bold;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--tertiary-color);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 /* Host section design */
-#host{
-    margin: 20rem 10rem 0;
+#host {
+  margin: 20rem 10rem 0;
 }
-.host-box{
-    background-color: var(--tertiary-bg);
-    padding: 5rem 5rem;
-    border-radius: 4rem;
-    display: flex;
-    gap: 3rem;
-    align-items: center;
+.host-box {
+  background-color: var(--tertiary-bg);
+  padding: 5rem 5rem;
+  border-radius: 4rem;
+  display: flex;
+  gap: 3rem;
+  align-items: center;
 }
-.host-box h1{
-    color: var(--primary-color);
-    font-style: Bold;
-font-size: 32px;
-font-weight: 700
-}
-
-.host-icons{
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-
+.host-box h1 {
+  color: var(--primary-color);
+  font-style: Bold;
+  font-size: 32px;
+  font-weight: 700;
 }
 
-.host-icon{
-    border: 1px solid rgba(83, 60, 114, 1);
-    border-radius: 50%;
-    padding: 1rem;
-
+.host-icons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
 }
 
-.host-icon img{
-        width: 2rem;
-    height: 2rem;
+.host-icon {
+  border: 1px solid rgba(83, 60, 114, 1);
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+.host-icon img {
+  width: 2rem;
+  height: 2rem;
+}
+
+/* Footer design */
+footer {
+  margin-top: 15rem;
+  background-image: url(./assets/footer-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 12rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.footer-icon {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+}
+.footer-icon div {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+footer p {
+  color: var(--primary-color);
+  font-style: Medium;
+  font-size: 16px;
+  font-weight: 500;
+}
+.footer-icon img {
+  width: 2.4rem;
+  height: 2.4rem;
 }
