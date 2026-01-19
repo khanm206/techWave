@@ -499,6 +499,7 @@ max-width: 8rem;
 .host-box {
 display: block;
 text-align: center;
+padding: 4rem 2rem;
 }
 .host-box h1 {
   font-size: 2.4rem;
