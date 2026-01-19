@@ -1,18 +1,69 @@
-
-:root{
-    --primary-color: rgba(26, 11, 46, 1);
-    --secondary-color: rgba(35, 14, 61, 1);
-    --tertiary-color: rgba(53, 17, 101, 0.4);
+:root {
+  --primary-color: rgba(255, 255, 255, 1);
+  --secondary-color: rgba(255, 255, 255, 0.605);
+  --navList-color: rgba(255, 255, 255, 0.905);
+  --primary-bg: rgba(26, 11, 46, 1);
+  --secondary-bg: rgba(35, 14, 61, 1);
+  --tertiary-bg: rgba(53, 17, 101, 0.4);
 }
 
-
-html{
-    font-size: 10px;
-    font-family: "Inter", sans-serif;
+html {
+  font-size: 10px;
+  font-family: "Inter", sans-serif;
 }
 
-
-body{
-    background:var(--primary-color) ;
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background: var(--primary-bg);
 }
 
+.btn {
+  background: linear-gradient(
+    45deg,
+    rgba(247, 233, 63, 1),
+    rgba(251, 9, 180, 1),
+    rgba(145, 0, 248, 1)
+  );
+  min-width: 13.5rem;
+  min-height: 4.4rem;
+  padding: 1.2rem 1.6rem;
+  border-radius: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-style: Semi Bold;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: var(--navList-color);
+}
+
+/* NavBar Design */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 10rem;
+}
+
+nav > img {
+  max-width: 22rem;
+  max-height: 3.2rem;
+  cursor: pointer;
+}
+
+nav ul {
+  list-style: none;
+  font-style: Medium;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  gap: 2rem;
+}
