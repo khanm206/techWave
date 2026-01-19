@@ -277,3 +277,41 @@ display: flex;
 align-items: center;
 gap: 1rem;
 }
+
+/* Host section design */
+#host{
+    margin: 20rem 10rem 0;
+}
+.host-box{
+    background-color: var(--tertiary-bg);
+    padding: 5rem 5rem;
+    border-radius: 4rem;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+.host-box h1{
+    color: var(--primary-color);
+    font-style: Bold;
+font-size: 32px;
+font-weight: 700
+}
+
+.host-icons{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+}
+
+.host-icon{
+    border: 1px solid rgba(83, 60, 114, 1);
+    border-radius: 50%;
+    padding: 1rem;
+
+}
+
+.host-icon img{
+        width: 2rem;
+    height: 2rem;
+}
