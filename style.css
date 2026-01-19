@@ -512,6 +512,12 @@ text-align: center;
 }
 
 /* Footer */
+footer {
+  margin-top: 10rem;
+  gap: 2rem;
+  padding: 5rem 0;
+}
+
 #footer-logo{
   max-width: 20rem;
   height: auto;
@@ -520,6 +526,7 @@ text-align: center;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
+  gap: 1rem;
 }
 
 }
