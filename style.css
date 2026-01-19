@@ -119,7 +119,7 @@ nav ul {
 }
 
 .hero-img {
-  background-image: url(./assets/hero-circle.png);
+  /* background-image: url(./assets/hero-circle.png); */
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
@@ -127,7 +127,14 @@ nav ul {
   align-items: center;
   min-height: 35rem;
   position: relative;
-  margin-top: 8rem;
+  width: fit-content;
+  margin: 8rem auto 0;
+}
+
+
+#microphone{
+    position: absolute;
+    z-index: 2;
 }
 
 .hero-img>p{
@@ -140,7 +147,8 @@ border-radius: 100rem;
 box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5);
 position: absolute;
 top: 0;
-right: 52rem;
+right: 0;
+z-index: 3;
 }
 
 .hero-content {
