@@ -60,6 +60,7 @@ body {
 }
 
 .primary-text {
+    text-align: center;
   color: var(--primary-color);
   font-style: Bold;
   font-size: 4.8rem;
@@ -71,6 +72,13 @@ body {
   font-style: Regular;
   font-size: 1.6rem;
   font-weight: 400;
+}
+
+.tertiary-text{
+        color: var(--primary-color);
+    font-style: Bold;
+font-size: 2.4rem;
+font-weight: 700;
 }
 
 
@@ -115,7 +123,7 @@ nav ul {
   width: 100%;
   min-height: 76rem;
   margin: 0 auto;
-  padding: 10rem 0;
+  padding: 2rem 0;
 }
 
 .hero-img {
@@ -208,12 +216,6 @@ margin-bottom: 0;
     gap: 1.5rem;
 }
 
-#reasons h3{
-    color: var(--primary-color);
-    font-style: Bold;
-font-size: 2.4rem;
-font-weight: 700;
-}
 
 #reasons div{
     background-color: var(--tertiary-bg);
@@ -239,4 +241,39 @@ margin-top: 20%;
 }
 #box-5{
     grid-area: e;
+}
+
+/* episodes section design */
+#episodes-card{
+    margin: 0 10rem;
+    display: flex;
+    gap: 2rem;
+    margin: 5rem 0 10rem;
+}
+
+.card{
+    width: 100%;
+    background-color: var(--tertiary-bg);
+    border-radius: 2.4rem;
+}
+
+iframe{
+    width: 100%;
+    height: 25rem;
+    border-top-right-radius: 2.4rem;
+    border-top-left-radius: 2.4rem;
+}
+
+.card-content{
+    padding: 1rem 2rem;
+}
+
+.time{
+    font-style: Semi Bold;
+font-size: 1.6rem;
+font-weight: 600;
+color: var(--tertiary-color);
+display: flex;
+align-items: center;
+gap: 1rem;
 }
