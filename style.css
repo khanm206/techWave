@@ -1,6 +1,7 @@
 :root {
   --primary-color: rgba(255, 255, 255, 1);
   --secondary-color: rgba(255, 255, 255, 0.605);
+  --tertiary-color: rgba(0, 255, 136, 1);
   --navList-color: rgba(255, 255, 255, 0.905);
   --primary-bg: rgba(26, 11, 46, 1);
   --secondary-bg: rgba(35, 14, 61, 1);
@@ -18,7 +19,7 @@ body {
   background: var(--primary-bg);
 }
 
-.btn {
+.primary-btn {
   background: linear-gradient(
     45deg,
     rgba(247, 233, 63, 1),
@@ -39,14 +40,46 @@ body {
   color: var(--primary-color);
   cursor: pointer;
 }
+.secondary-btn {
+  background: none;
+  border: 1px solid var(--tertiary-color);
+  min-width: 13.5rem;
+  min-height: 4.4rem;
+  padding: 1.2rem 1.6rem;
+  border-radius: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-style: Semi Bold;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--tertiary-color);
+  cursor: pointer;
+}
+
+.primary-text {
+  color: var(--primary-color);
+  font-style: Bold;
+  font-size: 4.8rem;
+  font-weight: 700;
+}
+
+.secondary-text {
+  color: var(--secondary-color);
+  font-style: Regular;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
 
 a {
   text-decoration: none;
   color: var(--navList-color);
 }
 
-/* NavBar Design */
 
+/* NavBar Design */
 nav {
   display: flex;
   justify-content: space-between;
@@ -66,4 +99,45 @@ nav ul {
   font-weight: 500;
   display: flex;
   gap: 2rem;
+}
+
+/* Hero section design */
+.hero {
+  background-image: url(./assets/hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  min-height: 76rem;
+  margin: 0 auto;
+  padding: 10rem 0;
+}
+
+.hero-img {
+  background-image: url(./assets/hero-circle.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 35rem;
+}
+
+.hero-content {
+  width: max-content;
+  margin: 4rem auto 10rem;
+  text-align: center;
+}
+
+.hero-header {
+  color: var(--primary-color);
+  font-style: Extra Bold;
+  font-size: 6rem;
+  font-weight: 800;
+  margin-bottom: 0;
+}
+
+.hero-btn{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
 }
