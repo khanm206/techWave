@@ -112,6 +112,10 @@ nav ul {
   gap: 2rem;
 }
 
+.hamburger{
+  display: none;
+}
+
 /* Hero section design */
 #hero {
   background-image: url(./assets/hero-bg.png);
@@ -189,6 +193,7 @@ nav ul {
   display: grid;
   grid-template-columns: repeat(4,1fr);
   justify-content: space-around;
+  align-items: center;
 }
 
 #review h2 {
@@ -381,4 +386,35 @@ button:hover{
 
 button{
   transition: transform 1s ease-in-out;
+}
+
+
+/* Mobile responsive */
+@media screen and (max-width: 576px){
+  /* navBar */
+  nav{
+    margin: 2rem 2.5rem;
+  }
+  nav ul{
+    display: none;
+  }
+  .nav-btn{
+   display: none;
+  }
+  .hamburger{
+    display: block;
+  }
+  nav > img {
+  max-width: 15rem;
+  max-height: 3.2rem;
+}
+
+/* About */
+#about {
+  margin: 0 2rem;
+}
+
+#review {
+  grid-template-columns: repeat(2,1fr);
+}
 }
