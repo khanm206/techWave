@@ -391,6 +391,9 @@ button{
 
 /* Mobile responsive */
 @media screen and (max-width: 576px){
+  .primary-text{
+    font-size: 3.2rem;
+  }
   /* navBar */
   nav{
     margin: 2rem 2.5rem;
@@ -416,5 +419,23 @@ button{
 
 #review {
   grid-template-columns: repeat(2,1fr);
+}
+
+/* Choose */
+#choose{
+  margin: 0;
+  padding: 5rem 2rem;
+}
+#reasons{
+  grid-template-areas: 
+  "a"
+  "b"
+  "c"
+  "d"
+  "e"
+  ;
+}
+#box-1 > img {
+  margin-top: 0;
 }
 }
