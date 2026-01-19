@@ -19,6 +19,10 @@ body {
   background: var(--primary-bg);
 }
 
+main{
+    margin: 0 10rem;
+}
+
 .primary-btn {
   background: linear-gradient(
     45deg,
@@ -78,6 +82,11 @@ a {
   color: var(--navList-color);
 }
 
+hr{
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 8rem 0;
+}
+
 
 /* NavBar Design */
 nav {
@@ -102,7 +111,7 @@ nav ul {
 }
 
 /* Hero section design */
-.hero {
+#hero {
   background-image: url(./assets/hero-bg.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -140,4 +149,21 @@ nav ul {
     display: flex;
     justify-content: center;
     gap: 4rem;
+}
+
+/* About section desgin */
+#about{
+    text-align: center;
+}
+
+#review{
+    display: flex;
+    justify-content: space-around;
+}
+
+#review h2{
+    color: var(--tertiary-color);
+font-size: 4.8rem;
+font-weight: 900;
+margin-bottom: 0;
 }
