@@ -141,12 +141,15 @@ nav ul {
 }
 
 #microphone {
+  
+  max-width: 100%;
   position: absolute;
   z-index: 2;
     animation: beat 2s linear infinite;
 }
 
 #hero-circle{
+  max-width: 100%;
   animation: circle 1.5s linear infinite;
 }
 .hero-img > p {
@@ -338,6 +341,11 @@ footer {
   gap: 4rem;
 }
 
+#footer-logo{
+  max-width: auto;
+  height: auto;
+}
+
 .footer-icon {
   display: flex;
   gap: 4rem;
@@ -415,6 +423,37 @@ button{
   max-height: 3.2rem;
 }
 
+/* Hero */
+#hero {
+  background-size: contain;
+  min-height: 100%;
+}
+.hero-header{
+  font-size: 4rem;
+}
+
+.hero-content {
+  width: auto;
+  margin: 1rem 1rem 5rem;
+  text-align: center;
+}
+.hero-btn {
+  gap: 1rem;
+}
+
+#microphone {
+max-width: 8rem;
+}
+
+#hero-circle{
+  max-width: 25rem;
+}
+
+.hero-img {
+  min-height: 100%;
+  margin: 0 auto;
+}
+
 /* About */
 #about {
   margin: 5rem 2.5rem;
@@ -470,6 +509,17 @@ text-align: center;
 .host-icon img {
   width: 1rem;
   height: 1rem;
+}
+
+/* Footer */
+#footer-logo{
+  max-width: 20rem;
+  height: auto;
+}
+.footer-icon {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
 }
 
 }
